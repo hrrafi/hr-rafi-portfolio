@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal portfolio of Abdullah Zubair Rafi - HR RAFI.">
+  <title>HR RAFI | Personal Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: #0b1020;
+      color: #f4f7ff;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      max-width: 960px;
+      margin: auto;
+      padding: 24px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding: 18px 0;
+      border-bottom: 1px solid #34405b;
+    }
+
+    .brand {
+      font-size: 22px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .accent {
+      color: #7c9cff;
+    }
+
+    nav a,
+    .social a {
+      color: #c4d1ff;
+      text-decoration: none;
+      margin-right: 12px;
+    }
+
+    .hero {
+      padding: 65px 0 45px;
+    }
+
+    .eyebrow {
+      color: #67e8d5;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: clamp(40px, 8vw, 74px);
+      line-height: 1.1;
+      margin: 12px 0;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    h3 {
+      color: #67e8d5;
+      margin-top: 28px;
+    }
+
+    .muted {
+      color: #aab6d0;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 11px 17px;
+      border-radius: 10px;
+      background: linear-gradient(110deg, #7c9cff, #67e8d5);
+      color: #081020;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 12px;
+    }
+
+    section {
+      padding: 22px 0 30px;
+      scroll-margin-top: 20px;
+    }
+
+    .card {
+      background: #121c33;
+      border: 1px solid #34405b;
+      border-radius: 16px;
+      padding: 22px;
+      margin: 12px 0;
+      overflow-wrap: anywhere;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 14px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 12px;
+      margin: 4px;
+      border: 1px solid #34405b;
+      border-radius: 30px;
+      color: #dce5ff;
+    }
+
+    footer {
+      border-top: 1px solid #34405b;
+      padding: 22px 0;
+      color: #aab6d0;
+      font-size: 14px;
+    }
+
+    @media (max-width: 520px) {
+      main {
+        padding: 16px;
+      }
+
+      nav {
+        width: 100%;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px 10px 5px 0;
+      }
+
+      .hero {
+        padding-top: 45px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+
+    <header>
+      <a class="brand" href="#home">HR <span class="accent">RAFI</span></a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#activities">Activities</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="eyebrow">Personal Portfolio</div>
+      <h1>Abdullah Zubair <span class="accent">Rafi</span></h1>
+      <p><strong>Student | Technology Enthusiast | Lifelong Learner</strong></p>
+      <p class="muted">
+        Welcome to my personal portfolio. I want to improve my skills,
+        learn new things and build a successful future. I enjoy learning
+        English, exploring technology and creating content.
+      </p>
+      <a class="button" href="#about">Explore My Profile</a>
+    </section>
+
+    <section id="about">
+      <h2>About <span class="accent">Me</span></h2>
+      <div class="card">
+        <p>
+          My name is Abdullah Zubair Rafi. I am from Hosendi,
+          Pakundia, Kishoreganj, Bangladesh.
+        </p>
+        <p>
+          I have studied Hifz and completed my SSC in the vocational
+          stream. I am currently studying HSC in BMT. I am also working
+          on improving my English and technical knowledge.
+        </p>
+        <p class="muted"><strong>Date of Birth:</strong> 14 July 2004</p>
+        <p class="muted"><strong>Location:</strong> Kishoreganj, Bangladesh</p>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education <span class="accent">Background</span></h2>
+
+      <h3>School Background</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>SSC (Vocational)</h4>
+          <p class="muted">Secondary School Certificate</p>
+          <p><strong>GPA:</strong> 4.65</p>
+          <p><strong>Trade:</strong> Computer, IT Support and IoT Basics</p>
+        </div>
+
+        <div class="card">
+          <h4>HSC (BMT)</h4>
+          <p class="muted">Business Management and Technology</p>
+          <p><strong>Trade:</strong> Digital Technology in Business</p>
+          <p class="muted">Currently studying at intermediate level.</p>
+        </div>
+      </div>
+
+      <h3>Madrasa Background</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>JDC Certificate</h4>
+          <p class="muted">Junior Dakhil Certificate — Class 8</p>
+          <p>Year and result can be added when confirmed.</p>
+        </div>
+
+        <div class="card">
+          <h4>Hifz Studies</h4>
+          <p class="muted">
+            Studied Hifz (Qur'an memorisation).
+          </p>
+        </div>
+      </div>
+
+      <h3>Additional Learning</h3>
+      <div class="card">
+        <h4>Spoken English Course</h4>
+        <p>English Therapy School, Dhaka</p>
+        <p class="muted">Completed in 2026</p>
+      </div>
+    </section>
+
+    <section id="activities">
+      <h2>Activities & <span class="accent">Interests</span></h2>
+
+      <div class="card">
+        <h3>Marathon Running</h3>
+        <p>
+          I have participated in a marathon run. It was part of my
+          experience in sports and physical activity.
+        </p>
+        <p class="muted">
+          Specific event name and distance can be added later.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Skills & Interests</h3>
+        <span class="tag">Computer Skills</span>
+        <span class="tag">IT Support</span>
+        <span class="tag">IoT Basics</span>
+        <span class="tag">Digital Technology</span>
+        <span class="tag">English Learning</span>
+        <span class="tag">Photo Editing</span>
+        <span class="tag">Content Creation</span>
+        <span class="tag">Technology</span>
+        <p class="muted">
+          Languages: Bangla and beginner-level English.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>My Goals</h3>
+        <p>
+          My goals are to improve my English, develop my technical
+          skills, continue learning and build a successful career.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Let's <span class="accent">Connect</span></h2>
+      <div class="card social">
+        <p>
+          You can find me on social media using the links below.
+        </p>
+        <p>
+          <a href="https://www.facebook.com/hr.rafi.332"
+             target="_blank" rel="noopener noreferrer">
+            Facebook Profile
+          </a>
+        </p>
+        <p>
+          <a href="https://www.instagram.com/md6698547"
+             target="_blank" rel="noopener noreferrer">
+            Instagram Profile
+          </a>
+        </p>
+        <p class="muted">
+          Phone number and email are not displayed publicly.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      &copy; <span id="year"></span> HR RAFI. All rights reserved.
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
